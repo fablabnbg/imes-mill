@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LANGUAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NofRecords>4</NofRecords>
+  <CurrentCulture>1</CurrentCulture>
+  <AllCultures>
+    <LANGUAGE>
+      <Culture>en-US</Culture>
+      <Invariant>en</Invariant>
+    </LANGUAGE>
+    <LANGUAGE>
+      <Culture>fr-FR</Culture>
+      <Invariant>fr</Invariant>
+    </LANGUAGE>
+    <LANGUAGE>
+      <Culture>tr-TR</Culture>
+      <Invariant>tr</Invariant>
+    </LANGUAGE>
+    <LANGUAGE>
+      <Culture>bg-BG</Culture>
+      <Invariant>bg</Invariant>
+    </LANGUAGE>
+  </AllCultures>
+</LANGUAGES>

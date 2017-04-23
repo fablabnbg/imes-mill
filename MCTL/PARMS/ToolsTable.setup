@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <tools>16</tools>
+  <currenttool>1</currenttool>
+  <basetool>1</basetool>
+  <measuretoollengthauto>0</measuretoollengthauto>
+  <measurelength>MESSAGE Measuring Tool Length
+FEEDRATE 100000
+MOVEABS Z0
+MOVEABS X49 Y-85.5
+MOVEABS Z-74
+FEEDRATE 5000
+MOVETOEDGE INP5 1 Z-175
+FEEDRATE 50000
+MOVEABS X0 Y0 Z0
+MESSAGE Measure Tool Done
+</measurelength>
+  <slot number="0">
+    <id>0</id>
+    <lenght>5</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>-175291</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-166483</FirstToolLengthSwitchPosition>
+    <holder />
+    <description>Tool 1 is OK</description>
+    <gettool>MESSAGE About to get Tool 1
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+OUT 4 0
+MOVEABS X150
+DIALOG Get Tool 1 is done
+MESSAGE Get Tool 1 is done
+</gettool>
+    <puttool>MESSAGE About to put Tool 1
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-15
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z0
+DIALOG Put Tool 1 is done
+MESSAGE Put Tool 1 is done
+</puttool>
+  </slot>
+  <slot number="1">
+    <id>1</id>
+    <lenght>10</lenght>
+    <diameter>0.2</diameter>
+    <ToolLengthSwitchPosition>-142570</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-142570</FirstToolLengthSwitchPosition>
+    <holder />
+    <description>Tool 2 is OK</description>
+    <gettool>MESSAGE About to get Tool 2
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-26
+OUT 4 0
+MOVEABS X150
+MESSAGE Get Tool 2 is done
+</gettool>
+    <puttool>MESSAGE About to put Tool 2
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-15
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z-210
+MOVETOEDGE INP5 1 Z-10
+MOVEABS Z0
+MESSAGE Put Tool 2 is done
+</puttool>
+  </slot>
+  <slot number="2">
+    <id>2</id>
+    <lenght>15</lenght>
+    <diameter>0.5</diameter>
+    <ToolLengthSwitchPosition>-86837</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-86837</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool>MESSAGE About to get Tool 3
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+OUT 4 0
+MOVEABS X150
+MESSAGE Get Tool 3 is done
+</gettool>
+    <puttool>MESSAGE About to put Tool 3
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-15
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z-210
+MOVETOEDGE INP5 1 Z-10
+MOVEABS Z0
+MESSAGE Put Tool 3 is done
+</puttool>
+  </slot>
+  <slot number="3">
+    <id>3</id>
+    <lenght>0</lenght>
+    <diameter>1</diameter>
+    <ToolLengthSwitchPosition>-244266</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-79571</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool>MESSAGE About to get Tool 4
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+OUT 4 0
+MOVEABS X150
+DIALOG Get Tool 4 is done
+MESSAGE Get Tool 4 is done</gettool>
+    <puttool>MESSAGE About to put Tool 4
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-15
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z0
+DIALOG Put Tool 4 is done
+MESSAGE Put Tool 4 is done</puttool>
+  </slot>
+  <slot number="4">
+    <id>4</id>
+    <lenght>0</lenght>
+    <diameter>2</diameter>
+    <ToolLengthSwitchPosition>-181341</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-181341</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool>MESSAGE About to get Tool 5
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+OUT 4 0
+MOVEABS X150
+MESSAGE Get Tool 5  is done</gettool>
+    <puttool>MESSAGE About to put Tool 5
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z--15
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z-210
+MOVETOEDGE INP5 1 Z-10
+MOVEABS Z0
+MESSAGE Put Tool 5 is done
+</puttool>
+  </slot>
+  <slot number="5">
+    <id>5</id>
+    <lenght>0</lenght>
+    <diameter>1.5</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool>MESSAGE About to get Tool 6
+FEEDRATE 100000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+OUT 4 0
+MOVEABS X150
+MESSAGE Get Tool 6 is done
+</gettool>
+    <puttool>MESSAGE About to put Tool 6
+FEEDRATE 100000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-26
+OUT 4 1
+MOVEABS X63.20 Y-83.0
+MOVEABS Z-210
+MOVETOEDGE INP5 1 Z-10
+MOVEABS Z0
+MESSAGE Put Tool 6 is done
+</puttool>
+  </slot>
+  <slot number="6">
+    <id>6</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="7">
+    <id>7</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>-174331</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>-171331</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool>MESSAGE About to get Tool 8
+FEEDRATE 50000
+MOVEABS X0 Y0 Z0
+MOVEABS Z-6
+DELAY 2000
+OUT 4 0
+MOVEABS X150
+MESSAGE Get Tool 8 is done</gettool>
+    <puttool>MESSAGE About to put Tool 8
+FEEDRATE 50000
+MOVEABS X300 Y0 Z0
+MOVEABS Z-46
+DELAY 2000
+OUT 4 1
+MOVEABS X150
+MESSAGE Put Tool 8 is done</puttool>
+  </slot>
+  <slot number="8">
+    <id>8</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="9">
+    <id>9</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="10">
+    <id>10</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="11">
+    <id>11</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="12">
+    <id>12</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="13">
+    <id>13</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="14">
+    <id>14</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <slot number="15">
+    <id>15</id>
+    <lenght>0</lenght>
+    <diameter>0</diameter>
+    <ToolLengthSwitchPosition>0</ToolLengthSwitchPosition>
+    <FirstToolLengthSwitchPosition>0</FirstToolLengthSwitchPosition>
+    <holder />
+    <description />
+    <gettool />
+    <puttool />
+  </slot>
+  <toolchangerhome />
+  <tool1sequence>0</tool1sequence>
+  <RTCP_Mode>0</RTCP_Mode>
+  <RTCP_Axis>3</RTCP_Axis>
+  <RTCP_VAxis>2</RTCP_VAxis>
+  <RTCP_HAxis>0</RTCP_HAxis>
+  <ToolLength_Reference>-142570</ToolLength_Reference>
+  <ToolLength_Reference_Manual>5</ToolLength_Reference_Manual>
+  <Use_Reference_Tool>0</Use_Reference_Tool>
+  <RTCP_ToolRadius>2</RTCP_ToolRadius>
+  <RTCP_ToolLength_Reference>-231469.012</RTCP_ToolLength_Reference>
+  <RTCP_ToolLength_Reference_Manual>5</RTCP_ToolLength_Reference_Manual>
+  <RTCP_Pivot_Point>0</RTCP_Pivot_Point>
+  <RTCPCalibration />
+  <RTCP_OffsetX>0</RTCP_OffsetX>
+</root>

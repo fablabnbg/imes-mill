@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Mode>1</Mode>
+  <Axis1>Z</Axis1>
+  <Axis1Mode>0</Axis1Mode>
+  <Size1>10.000</Size1>
+  <Text1>Z size</Text1>
+  <Axis2>Y</Axis2>
+  <Axis2Mode>0</Axis2Mode>
+  <Size2>4.000</Size2>
+  <Text2>Y size</Text2>
+  <FileLeft>CalibrationAL</FileLeft>
+  <FileRight>CalibrationAR</FileRight>
+  <ImageFile>CalibrationA</ImageFile>
+</root>

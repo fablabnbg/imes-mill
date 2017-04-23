@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<USER_STRUCT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdminPassword>1234</AdminPassword>
+  <OperatorPassword>4321</OperatorPassword>
+  <Operator1Password>1111</Operator1Password>
+</USER_STRUCT>

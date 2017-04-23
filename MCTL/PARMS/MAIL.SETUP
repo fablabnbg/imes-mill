@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EMAIL_SETUP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SMTP>smtp.server.com</SMTP>
+  <Port>587</Port>
+  <EnableSSL>true</EnableSSL>
+  <FromEmail>cnc_user_name@companydomain.com</FromEmail>
+  <FromName>My Company CNC 123456</FromName>
+  <Password />
+  <PasswordOnActivation>true</PasswordOnActivation>
+  <AlwaysOn>false</AlwaysOn>
+  <Timeout>6</Timeout>
+  <Lines>
+    <EMAIL_SETUP_ONE>
+      <EventCode>0</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+    <EMAIL_SETUP_ONE>
+      <EventCode>1</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+    <EMAIL_SETUP_ONE>
+      <EventCode>2</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+    <EMAIL_SETUP_ONE>
+      <EventCode>3</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+    <EMAIL_SETUP_ONE>
+      <EventCode>4</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+    <EMAIL_SETUP_ONE>
+      <EventCode>5</EventCode>
+      <Send>false</Send>
+      <To>operator@operatordomain.com</To>
+      <copy_CC />
+      <Subject />
+      <Body>Message to operator</Body>
+    </EMAIL_SETUP_ONE>
+  </Lines>
+</EMAIL_SETUP>

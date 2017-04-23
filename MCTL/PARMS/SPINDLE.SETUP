@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPINDLE_SETTINGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinRPM>5000</MinRPM>
+  <MaxRPM>60000</MaxRPM>
+  <DefRPM>20000</DefRPM>
+  <DelayStart1>3000</DelayStart1>
+  <DelayStop1>5000</DelayStop1>
+  <DelayStop2>0</DelayStop2>
+</SPINDLE_SETTINGS>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BATCH_JOB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>0</ID>
+  <nFiles>0</nFiles>
+  <Name>BatchName</Name>
+  <Started>false</Started>
+  <Completed>false</Completed>
+  <Interrupted>false</Interrupted>
+  <FileStarted>0</FileStarted>
+  <Files>
+    <BATCH_FILE>
+      <ID>1</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>2</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>3</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>4</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>5</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>6</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>7</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>8</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>9</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+    <BATCH_FILE>
+      <ID>10</ID>
+      <FileName />
+      <Status>0</Status>
+      <CurrentLine>0</CurrentLine>
+    </BATCH_FILE>
+  </Files>
+</BATCH_JOB>
